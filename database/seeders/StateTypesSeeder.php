@@ -15,7 +15,7 @@ class StateTypesSeeder extends Seeder
     public function run()
     {
         DB::table('state_types')->insert([
-           ['name' => 'Pending'],
+           ['name' => 'Cancelled'],
            ['name' => 'Completed'],
            ['name' => 'In Progress'],
         ]);
